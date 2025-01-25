@@ -112,7 +112,9 @@ main section span {
     color: black;
     font-weight: bold;
 }
-main a { 
+main a,
+main .sections,
+main .sections-t { 
     text-decoration: none;
 }
 
