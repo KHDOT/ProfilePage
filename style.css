@@ -112,7 +112,7 @@ main section span {
     color: black;
     font-weight: bold;
 }
-main section a {
+main a { 
     text-decoration: none;
 }
 
@@ -122,7 +122,7 @@ main section:hover {
  }
 
 main section:active {
-   background-color: hsl(303, 80%, 70%);
+   background-color: hsl(0, 3%, 13%);
    transition: background-color 0.2s;
 }
 
