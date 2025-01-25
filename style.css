@@ -107,14 +107,14 @@ main section {
     transition: all 0.5s;
 }
 
-main section span {
+main section {
     font-family: inter;
     color: black;
     font-weight: bold;
 }
-main a,
-main .sections,
-main .sections-t { 
+
+
+main a { 
     text-decoration: none;
 }
 
@@ -123,14 +123,13 @@ main section:hover {
     transition: background-color 0.2s;
  }
 
-main section:active {
-   background-color: hsl(0, 3%, 13%);
-   transition: background-color 0.2s;
-}
+ main section:active {
+    background-color: hsl(0, 3%, 13%);
+    transition: background-color 0.2s;
+ }
 
 @media (max-width: 350px) {
-    .sections,
-    .sections-t {
+    .sections {
         width: 15rem;
     }
 }
@@ -140,8 +139,7 @@ main section:active {
         width: 13rem;
     }
     
-    .sections,
-    .sections-t {
+    .sections {
         width: 12rem;
     }
 
@@ -150,7 +148,3 @@ main section:active {
     }
 }
 
-.sections-t:active {
-    background-color: red;
-    text-decoration: line-through;
-}
