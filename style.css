@@ -1,0 +1,154 @@
+body {
+    display: grid;
+    background-color: hsl(0, 0%, 100%);
+    align-content: center;
+    justify-content: center;
+    margin: 7rem;
+    color: black;
+}
+
+main {
+    background-color: hsl(0, 0%, 75%);
+    width: 25rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+    main {
+        width: 22rem;
+    }
+}
+
+@media (max-width: 350px) {
+    main {
+    width: 18rem;
+    }
+}
+
+main nav {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(226, 112, 255);
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.div1 {
+    background-color: white;
+    height: 10px;
+    width: 30px;
+    position: absolute;
+    left: 1.55rem;
+    bottom: 1rem;
+    border-top: 0px solid white;
+    border-radius: 100px;
+}
+
+.div2 {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.div3 {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+
+h1 {
+    font-family: inter;
+    font-size: 1.75rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    margin-top: 1.4rem;
+    margin-bottom: 0;
+}
+
+.p1 {
+    font-family: inter;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.p2 {
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+main section {
+    background-color: hsl(0, 0%, 60%);
+    width: 20rem;
+    height: 3rem;
+    border-radius: 7px;
+    margin: 0.65rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+main section span {
+    font-family: inter;
+    color: black;
+    font-weight: bold;
+}
+main section a {
+    text-decoration: none;
+}
+
+main section:hover {
+    background-color: hsl(0, 0%, 30%);
+    transition: background-color 0.2s;
+ }
+
+main section:active {
+   background-color: hsl(303, 80%, 70%);
+   transition: background-color 0.2s;
+}
+
+@media (max-width: 350px) {
+    .sections,
+    .sections-t {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 250px) {
+    main {
+        width: 13rem;
+    }
+    
+    .sections,
+    .sections-t {
+        width: 12rem;
+    }
+
+    .p2 {
+        font-size: 11px;
+    }
+}
+
+.sections-t:active {
+    background-color: red;
+    text-decoration: line-through;
+}
